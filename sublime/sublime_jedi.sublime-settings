@@ -1,0 +1,6 @@
+{
+    "python_interpreter": "python3",
+    "sublime_completions_visibility": "list",
+    "auto_complete_function_params": "required",
+    "sublime_completions_visibility": "default"
+}

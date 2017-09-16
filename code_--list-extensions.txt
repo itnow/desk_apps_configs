@@ -1,0 +1,5 @@
+alefragnani.Bookmarks
+donjayamanne.python
+marvinhagemeister.theme-afterglow-remastered
+tomphilbin.gruvbox-themes
+wholroyd.jinja

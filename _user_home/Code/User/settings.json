@@ -1,0 +1,90 @@
+{  
+    // Controls which editor is shown at startup, if none is restored from
+    // the previous session. Select 'none' to start without an editor,
+    // 'welcomePage' to open the Welcome page (default), 'newUntitledFile'
+    // to open a new untitled file (only opening an empty workspace).
+    "workbench.startupEditor": "none",
+    
+    // Controls the font size in pixels.
+    "editor.fontSize": 16,
+    // Controls the font family.
+    "editor.fontFamily": "'DejaVu Sans Mono', 'Monospace'",
+    // Columns at which to show vertical rulers
+    "editor.rulers": [79,119],
+
+    // Controls if opened editors should show with an icon or not. This requires
+    // an icon theme to be enabled as well.
+    "workbench.editor.showIcons": false,
+    // Specifies the icon theme used in the workbench or 'null'
+    // to not show any file icons.
+    "workbench.iconTheme": null,
+    // Specifies the color theme used in the workbench.
+    "workbench.colorTheme": "Afterglow Remastered",
+    
+    // Enable usage data and errors to be sent to Microsoft.
+    "telemetry.enableTelemetry": false,
+    // Enable crash reports to be sent to Microsoft.
+    // This option requires restart to take effect.
+    "telemetry.enableCrashReporter": false,
+
+    // Automatically update extensions
+    "extensions.autoUpdate": true,
+
+    // Path to Python, you can use a custom version of Python by modifying
+    // this setting to include the full path.
+    "python.pythonPath": "python3.6",
+    // "python.pythonPath": "${workspaceRoot}/venv/bin/python",
+
+    // Whether to lint Python files using pylint.
+    "python.linting.pylintEnabled": false,
+    // Whether to lint Python files using pep8
+    "python.linting.pep8Enabled": false,
+    // Whether to lint Python files using flake8
+    "python.linting.flake8Enabled": true,
+    // Whether to lint Python files using pydocstyle
+    "python.linting.pydocstyleEnabled": true,
+    // Whether to lint Python files using mypy.
+    "python.linting.mypyEnabled": false,
+
+    // Arguments passed in. Each argument is a separate item in the array.
+    // --ignore=errors   Comma-separated list of errors and warnings to ignore
+    //                   (or skip). For example, ``--ignore=E4,E51,W234``.
+    //                   (Default: E121,E123,E126,E226,E24,E704,W503,W504)
+    // --select=errors   Comma-separated list of errors and warnings to enable.
+    //                   For example, ``--select=E4,E51,W234``. (Default:
+    //                   E,F,W,C90)
+    "python.linting.flake8Args": [
+      // E501: line too long > 79
+      // W503: line break before binary operator
+      // I100: Import statements are in the wrong order.
+      // I101: Imported names are in the wrong order.
+      "--ignore=E501,W503,I100,I101",
+    ],
+    
+    // Arguments passed in. Each argument is a separate item in the array.
+    "python.linting.pydocstyleArgs": [
+      // D100: Missing docstring in public module
+      // D101: Missing docstring in public class
+      // D102: Missing docstring in public method
+      // D103: Missing docstring in public function
+      // D105: Missing docstring in magic method
+      // D203: 1 blank line required before class docstring
+      // D205: 1 blank line required between summary line and description
+      // D213: Multi-line docstring summary should start at the second line
+      // D400: First line should end with a period
+      // D401: First line should be in imperative mood
+      "--ignore=D100,D101,D102,D103,D105,D203,D205,D213,D400,D401",
+    ],
+    
+    // Arguments passed in. Each argument is a separate item in the array.
+    "python.linting.mypyArgs": [
+      "--ignore-missing-imports",
+      "--follow-imports=silent"
+    ],
+
+    // Whether to lint Python files when modified.
+    "python.linting.lintOnTextChange": true,
+    // Whether to lint Python files when saved.
+    "python.linting.lintOnSave": true,
+
+}

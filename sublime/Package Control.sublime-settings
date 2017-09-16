@@ -1,0 +1,16 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Jedi - Python autocompletion",
+		"Jinja2",
+		"Package Control",
+		"PHP Syntax Checker",
+		"Python Flake8 Lint",
+		"requirementstxt",
+		"Theme - Afterglow"
+	]
+}
