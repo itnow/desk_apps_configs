@@ -1,5 +1,7 @@
 alefragnani.Bookmarks
 donjayamanne.python
 marvinhagemeister.theme-afterglow-remastered
+ms-vscode.cpptools
+stkb.rewrap
 tomphilbin.gruvbox-themes
 wholroyd.jinja
