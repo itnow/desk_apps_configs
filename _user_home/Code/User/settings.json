@@ -25,6 +25,11 @@
     // Specifies the color theme used in the workbench.
     "workbench.colorTheme": "Afterglow Remastered",
     
+    // Overrides colors from the currently selected color theme.
+    "workbench.colorCustomizations": {
+      "editor.lineHighlightBackground": "#373737"
+    },
+
     // Enable usage data and errors to be sent to Microsoft.
     "telemetry.enableTelemetry": false,
     // Enable crash reports to be sent to Microsoft.
@@ -62,7 +67,7 @@
       // W503: line break before binary operator
       // I100: Import statements are in the wrong order.
       // I101: Imported names are in the wrong order.
-      "--ignore=E501,W503,I100,I101",
+      "--ignore=E501,W503,I100,I101"
     ],
     
     // Arguments passed in. Each argument is a separate item in the array.
@@ -78,7 +83,7 @@
       // D213: Multi-line docstring summary should start at the second line
       // D400: First line should end with a period
       // D401: First line should be in imperative mood
-      "--ignore=D100,D101,D102,D103,D105,D203,D205,D212,D213,D400,D401",
+      "--ignore=D100,D101,D102,D103,D105,D203,D205,D212,D213,D400,D401"
     ],
     
     // Arguments passed in. Each argument is a separate item in the array.
@@ -90,6 +95,6 @@
     // Whether to lint Python files when modified.
     "python.linting.lintOnTextChange": true,
     // Whether to lint Python files when saved.
-    "python.linting.lintOnSave": true,
+    "python.linting.lintOnSave": true
 
 }
