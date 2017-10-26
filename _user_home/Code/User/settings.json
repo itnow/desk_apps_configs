@@ -14,10 +14,14 @@
 
     // Controls if opened editors should show with an icon or not. This requires
     // an icon theme to be enabled as well.
-    "workbench.editor.showIcons": false,
+    // "workbench.editor.showIcons": false,
+    "workbench.editor.showIcons": true,
+
     // Specifies the icon theme used in the workbench or 'null'
     // to not show any file icons.
-    "workbench.iconTheme": null,
+    // "workbench.iconTheme": null,
+    "workbench.iconTheme": "vs-seti",
+
     // Specifies the color theme used in the workbench.
     "workbench.colorTheme": "Afterglow Remastered",
     
@@ -70,10 +74,11 @@
       // D105: Missing docstring in magic method
       // D203: 1 blank line required before class docstring
       // D205: 1 blank line required between summary line and description
+      // D212: Multi-line docstring summary should start at the first line
       // D213: Multi-line docstring summary should start at the second line
       // D400: First line should end with a period
       // D401: First line should be in imperative mood
-      "--ignore=D100,D101,D102,D103,D105,D203,D205,D213,D400,D401",
+      "--ignore=D100,D101,D102,D103,D105,D203,D205,D212,D213,D400,D401",
     ],
     
     // Arguments passed in. Each argument is a separate item in the array.
