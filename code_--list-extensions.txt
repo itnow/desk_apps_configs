@@ -1,7 +1,7 @@
 alefragnani.Bookmarks
-donjayamanne.python
 lextudio.restructuredtext
 marvinhagemeister.theme-afterglow-remastered
+ms-python.python
 ms-vscode.cpptools
 patrys.vscode-code-outline
 stkb.rewrap
