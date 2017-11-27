@@ -1,5 +1,5 @@
 [Configuration]
-FontName=DejaVu Sans Mono 11
+FontName=Monospace 11
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBordersDefault=TRUE
@@ -17,17 +17,17 @@ MiscTabCloseMiddleClick=TRUE
 MiscTabPosition=GTK_POS_TOP
 MiscHighlightUrls=TRUE
 MiscScrollAlternateScreen=TRUE
-ScrollingLines=10000
 ShortcutsNoMenukey=TRUE
 ShortcutsNoMnemonics=TRUE
-ColorForeground=#b7b7b7
-ColorBackground=#261813
-ColorPalette=#000000;#aa0000;#44aa44;#aa5500;#0039aa;#aa22aa;#1a92aa;#aaaaaa;#777777;#ff8787;#4ce64c;#ded82c;#295fcc;#cc58cc;#4ccce6;#ffffff
-ColorCursor=#0f4999
-ColorSelection=#163b59
-ColorSelectionUseDefault=FALSE
-ColorBoldUseDefault=FALSE
-TabActivityColor=#aa0000
 CommandUpdateRecords=FALSE
+ScrollingLines=10000
+ColorForeground=#D9C397
+ColorBackground=#262626
+ColorCursor=x
+ColorPalette=#262626;#D96C6C;#B0BF0A;#F2B230;#99B7CC;#D988B1;#8FBF8F;#D9C397;#928374;#D96C6C;#B0BF0A;#F2B230;#99B7CC;#D988B1;#8FBF8F;#D9C397
+TabActivityColor=#AA0000
 TabActivityTimeout=2
+DropdownAnimationTime=50
+DropdownHeight=70
+DropdownOpacity=95
 
