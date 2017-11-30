@@ -3,7 +3,9 @@ lextudio.restructuredtext
 marvinhagemeister.theme-afterglow-remastered
 ms-python.python
 ms-vscode.cpptools
+octref.vetur
 patrys.vscode-code-outline
 stkb.rewrap
 tomphilbin.gruvbox-themes
 wholroyd.jinja
+zhuangtongfa.Material-theme
