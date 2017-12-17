@@ -26,9 +26,11 @@
   "editor.rulers": [79,119],
 
   // Controls if the minimap is shown
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   // Render the actual characters on a line (as opposed to color blocks)
   "editor.minimap.renderCharacters": false,
+  // Controls whether the minimap slider is automatically hidden. Possible values are 'always' and 'mouseover'
+  "editor.minimap.showSlider": "always",
   
   // Controls if opened editors should show with an icon or not. This requires
   // an icon theme to be enabled as well.
