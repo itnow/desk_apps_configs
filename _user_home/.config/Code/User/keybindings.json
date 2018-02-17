@@ -4,5 +4,58 @@
         "key": "enter",
         "command": "-acceptSelectedSuggestionOnEnter",
         "when": "acceptSuggestionOnEnter && editorTextFocus && suggestWidgetVisible && suggestionMakesTextEdit"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "-rest-client.rerun-last-request",
+        "when": "editorTextFocus && editorLangId == 'plaintext'"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "-rest-client.rerun-last-request",
+        "when": "editorTextFocus && editorLangId == 'http'"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "-rest-client.rerun-last-request",
+        "when": "resourceScheme == 'rest-response'"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "-rest-client.cancel-request",
+        "when": "editorTextFocus && editorLangId == 'plaintext'"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "-rest-client.cancel-request",
+        "when": "editorTextFocus && editorLangId == 'http'"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "-rest-client.generate-codesnippet",
+        "when": "editorTextFocus && editorLangId == 'plaintext'"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "-rest-client.generate-codesnippet",
+        "when": "editorTextFocus && editorLangId == 'http'"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "-rest-client.request",
+        "when": "editorTextFocus && editorLangId == 'http'"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "-rest-client.request",
+        "when": "editorTextFocus && editorLangId == 'plaintext'"
+    },
+    {
+        "key": "ctrl+alt+e",
+        "command": "-rest-client.switch-environment"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "-rest-client.history"
     }
 ]
