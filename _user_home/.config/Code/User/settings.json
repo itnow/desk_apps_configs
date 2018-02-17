@@ -25,6 +25,12 @@
   // Columns at which to show vertical rulers
   "editor.rulers": [79,119],
 
+  // Controls the cursor style, accepted values are 'block', 'block-outline',
+  // 'line', 'line-thin', 'underline' and 'underline-thin'
+  "editor.cursorStyle": "line",
+  // Controls the width of the cursor when editor.cursorStyle is set to 'line'
+  "editor.cursorWidth": 2,
+
   // Controls if the minimap is shown
   "editor.minimap.enabled": false,
   // Render the actual characters on a line (as opposed to color blocks)
@@ -46,6 +52,7 @@
   // Overrides colors from the currently selected color theme.
   "workbench.colorCustomizations": {
     // "editor.background": "#2e2e2e"
+    "editorCursor.foreground": "#fff",
   },
 
 
@@ -111,6 +118,10 @@
 
 
 
+  // Enable/disable built-in PHP validation.
+  "php.validate.enable": false,
+
+
   "[javascript]": {
     "editor.detectIndentation": false,
     "editor.tabSize": 2
@@ -121,6 +132,11 @@
   },
 
 
-  
-  "rest-client.enableTelemetry": false
+  // Send out anonymous usage data
+  "rest-client.enableTelemetry": false,
+
+  "files.associations": {
+    "*.conf": "makefile"
+  }
+
 }
