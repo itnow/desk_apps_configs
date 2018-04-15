@@ -7,6 +7,8 @@
   
   // Automatically update extensions
   "extensions.autoUpdate": true,
+  // If set to true, recommendations will not be fetched or shown unless specifically requested by the user.
+  "extensions.showRecommendationsOnlyOnDemand": true,
   
   // Controls which editor is shown at startup, if none is restored from
   // the previous session. Select 'none' to start without an editor,

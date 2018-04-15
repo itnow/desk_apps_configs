@@ -1,6 +1,6 @@
 alefragnani.Bookmarks
 lextudio.restructuredtext
-marvinhagemeister.theme-afterglow-remastered
+mrcrowl.hg
 ms-python.python
 ms-vscode.cpptools
 octref.vetur
