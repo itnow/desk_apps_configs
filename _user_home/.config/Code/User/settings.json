@@ -128,17 +128,19 @@
     "editor.detectIndentation": false,
     "editor.tabSize": 2
   },
+  "[json]": {
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2
+  },
   "[vue]": {
     "editor.detectIndentation": false,
     "editor.tabSize": 2
   },
 
-
-  // Send out anonymous usage data
-  "rest-client.enableTelemetry": false,
-
+  
   "files.associations": {
     "*.conf": "makefile"
-  }
-
+  },
+  
+  "terminal.integrated.rendererType": "canvas"
 }
