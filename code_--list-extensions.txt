@@ -1,4 +1,3 @@
-PeterJausovec.vscode-docker
 alefragnani.Bookmarks
 lextudio.restructuredtext
 mrcrowl.hg
@@ -6,6 +5,7 @@ ms-python.python
 ms-vscode.cpptools
 octref.vetur
 patrys.vscode-code-outline
+PeterJausovec.vscode-docker
 stkb.rewrap
 wholroyd.jinja
 zhuangtongfa.Material-theme
