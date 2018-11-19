@@ -18,10 +18,10 @@
 
   // Adjust the zoom level of the window. The original size is 0 and each increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger or smaller. You can also enter decimals to adjust the zoom level with a finer granularity.
   "window.zoomLevel": 0,
-
+  
   // Controls the font size in pixels.
-  "editor.fontSize": 16,
-    // Controls the font family.
+  "editor.fontSize": 14,
+  // Controls the font family.
   "editor.fontFamily": "'DejaVu Sans Mono', 'Monospace'",
   
   // Columns at which to show vertical rulers
@@ -40,6 +40,9 @@
   // Controls whether the minimap slider is automatically hidden. Possible values are 'always' and 'mouseover'
   "editor.minimap.showSlider": "always",
   
+  // Controls whether a top border is drawn on modified (dirty) editor tabs or not.
+  "workbench.editor.highlightModifiedTabs": true,
+
   // Controls if opened editors should show with an icon or not. This requires
   // an icon theme to be enabled as well.
   // "workbench.editor.showIcons": false,
@@ -142,5 +145,5 @@
     "*.conf": "makefile"
   },
   
-  "terminal.integrated.rendererType": "canvas"
+  "terminal.integrated.rendererType": "canvas",
 }
