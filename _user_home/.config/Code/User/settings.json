@@ -16,6 +16,9 @@
   // to open a new untitled file (only opening an empty workspace).
   "workbench.startupEditor": "none",
 
+  // Adjust the appearance of the window title bar. Changes require a full restart to apply.
+  "window.titleBarStyle": "native",
+
   // Adjust the zoom level of the window. The original size is 0 and each increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger or smaller. You can also enter decimals to adjust the zoom level with a finer granularity.
   "window.zoomLevel": 0,
   
@@ -70,7 +73,7 @@
   // Whether to lint Python files using pylint.
   "python.linting.pylintEnabled": false,
   // Whether to lint Python files using pep8
-  "python.linting.pep8Enabled": false,
+  "python.linting.pycodestyleEnabled": false,
   // Whether to lint Python files using flake8
   "python.linting.flake8Enabled": true,
   // Whether to lint Python files using pydocstyle
@@ -146,4 +149,23 @@
   },
   
   "terminal.integrated.rendererType": "canvas",
+  "editor.renderWhitespace": "boundary",
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.enableExperiments": false,
+  "update.enableWindowsBackgroundUpdates": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "npm.fetchOnlinePackageInfo": false,
+  "editor.maxTokenizationLineLength": 100000,
+  "oneDarkPro.bold": true,
+  "python.showStartPage": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "json.maxItemsComputed": 15000,
 }
