@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Usage example:
-#   $ hdd_to_standby.sh /dev/sdb
-
 echo '*****************************************************'
 
 # `$#` - variable expand to the number of arguments passed to script
